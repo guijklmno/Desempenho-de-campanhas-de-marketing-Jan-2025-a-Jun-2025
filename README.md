@@ -5,6 +5,7 @@ Pipeline de dados desenvolvido para demonstrar um fluxo completo de **ingestão,
 O projeto utiliza Python/Pandas e SQL para transformar uma base "suja" e propositalmente inconsistente em datasets confiáveis para análise de negócio e ferramentas de BI.
 
 O projeto ainda está em andamento.
+
 ---
 
 ## Objetivo
