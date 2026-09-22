@@ -1,0 +1,27 @@
+regra,categoria,registros_afetados,acao,registros_apos_tratamento
+Valores ausentes em impressoes,Missing values,10,Preenchido com 0 para métricas numéricas ou Unknown para dimensões,0
+Valores ausentes em investimento,Missing values,18,Preenchido com 0 para métricas numéricas ou Unknown para dimensões,0
+Valores ausentes em regiao,Missing values,127,Preenchido com 0 para métricas numéricas ou Unknown para dimensões,0
+Valores ausentes em dispositivo,Missing values,93,Preenchido com 0 para métricas numéricas ou Unknown para dimensões,0
+Valores ausentes em tipo_usuario,Missing values,127,Preenchido com 0 para métricas numéricas ou Unknown para dimensões,0
+Valores negativos em impressoes,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em cliques,Validação numérica,3,Valores menores que zero convertidos para 0,0
+Valores negativos em investimento,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em receita,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em leads,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em leads_qualificados,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em clientes,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em emails_enviados,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em emails_abertos,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Valores negativos em emails_cliques,Validação numérica,0,Valores menores que zero convertidos para 0,0
+Cliques > Impressões,Funil de marketing,10,Cliques limitados ao número de impressões,0
+Leads qualificados > Leads,Funil de marketing,0,Leads qualificados limitados ao número de leads,0
+Clientes > Leads qualificados,Funil de marketing,167,Clientes limitados ao número de leads qualificados,0
+E-mails abertos > E-mails enviados,Funil de e-mail,2,Aberturas limitadas ao número de e-mails enviados,0
+Cliques de e-mail > E-mails abertos,Funil de e-mail,0,Cliques de e-mail limitados às aberturas,0
+Duplicidades na chave de negócio,Duplicidade,154,Mantido apenas o primeiro registro por chave,0
+Investimento acima de 10x a mediana,Outlier,2,Mantido no dataset e sinalizado para investigação; não removido automaticamente,2
+Registros brutos,Resumo,670,Base original,516
+Registros finais,Resumo,516,Dataset Silver final,516
+Registros brutos,Resumo,670,Base original,670
+Registros finais,Resumo,654,Dataset Silver final,654
