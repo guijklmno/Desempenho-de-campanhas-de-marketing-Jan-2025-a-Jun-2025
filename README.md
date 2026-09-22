@@ -39,7 +39,7 @@ O objetivo deste projeto é transformar uma base desorganizada em uma fonte de d
 
 ### Por que Python e SQL?
 
-O uso combinado de Python e SQL representa uma abordagem próxima de um cenário real de Analytics/BI.
+O uso combinado de Python e SQL representa uma abordagem próxima de um cenário real.
 
 **Python** é utilizado principalmente para:
 
@@ -52,11 +52,11 @@ O uso combinado de Python e SQL representa uma abordagem próxima de um cenário
 - Aplicação de regras de Data Quality;
 - Criação de transformações reutilizáveis e testáveis.
 
-**SQL** é utilizado para estruturar o dado em diferentes camadas, mantendo o processamento organizado e desacoplado da ferramenta de visualização:
+**SQL** é utilizado para estruturar o dado em diferentes camadas como um processo separado da ferramenta de visualização:
 
 `Raw → Staging → Silver → Gold`
 
-A camada **Gold** concentra datasets analíticos já agregados, permitindo que ferramentas como Power BI e QuickSight consumam desses dados para análise sem precisar reproduzir regras de limpeza e cálculo de indicadores em cada dashboard.
+A camada **Gold** concentra datasets analíticos já agregados, permitindo que ferramentas como Power BI e QuickSight consumam desses dados para análise sem precisar reproduzir regras de limpeza e calcular métricas e indicadores em cada dashboard.
 
 Essa separação também permite que as regras de negócio sejam centralizadas no pipeline.
 
