@@ -1,0 +1,22 @@
+﻿coluna,descricao
+data,Data da atividade/campanha
+id_campanha,Identificador da campanha
+campanha,Nome da campanha
+canal,Canal de marketing
+objetivo,Objetivo da campanha
+plataforma,Plataforma/origem
+pais,País
+regiao,Região
+origem_trafego,Origem do tráfego
+impressoes,Número de impressões
+cliques,Número de cliques
+investimento,Investimento da campanha
+receita,Receita atribuída
+leads,Leads gerados
+leads_qualificados,Leads qualificados
+clientes,Clientes/conversões finais
+emails_enviados,E-mails enviados
+emails_abertos,E-mails abertos
+emails_cliques,Cliques em e-mails
+dispositivo,Dispositivo
+tipo_usuario,Tipo de usuário
